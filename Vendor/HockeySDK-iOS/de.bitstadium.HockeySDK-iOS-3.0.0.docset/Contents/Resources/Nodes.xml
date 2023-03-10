@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>HockeySDK-iOS 3.0.0</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				<Node type="folder">
+					<Name>Programming Guides</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		<Node id="1">
+			<Name>Changelog</Name>
+			<Path>docs/docs/Changelog.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>Guide-Installation-Mac-App</Name>
+			<Path>docs/docs/Guide-Installation-Mac-App.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>Guide-Installation-Setup</Name>
+			<Path>docs/docs/Guide-Installation-Setup.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>Guide-Installation-Setup-Advanced</Name>
+			<Path>docs/docs/Guide-Installation-Setup-Advanced.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>Guide-Migration-Kits</Name>
+			<Path>docs/docs/Guide-Migration-Kits.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>HowTo-Add-Application-Log</Name>
+			<Path>docs/docs/HowTo-Add-Application-Log.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>HowTo-App-Versioning</Name>
+			<Path>docs/docs/HowTo-App-Versioning.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>HowTo-Handle-Crashes-On-Startup</Name>
+			<Path>docs/docs/HowTo-Handle-Crashes-On-Startup.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>HowTo-Integrate-Atlassian-JMC</Name>
+			<Path>docs/docs/HowTo-Integrate-Atlassian-JMC.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>HowTo-Upload-Symbols</Name>
+			<Path>docs/docs/HowTo-Upload-Symbols.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>Troubleshooting-Symbolication-Doesnt-Work</Name>
+			<Path>docs/docs/Troubleshooting-Symbolication-Doesnt-Work.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>Troubleshooting-Troubleshooting-Crash-Reporting-Not-Working</Name>
+			<Path>docs/docs/Troubleshooting-Troubleshooting-Crash-Reporting-Not-Working.html</Path>
+		</Node>
+		
+		<Node id="13">
+			<Name>BITAttributedLabel</Name>
+			<Path>Classes/BITAttributedLabel.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>BITCrashManager</Name>
+			<Path>Classes/BITCrashManager.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>BITFeedbackActivity</Name>
+			<Path>Classes/BITFeedbackActivity.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>BITFeedbackComposeViewController</Name>
+			<Path>Classes/BITFeedbackComposeViewController.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>BITFeedbackListViewController</Name>
+			<Path>Classes/BITFeedbackListViewController.html</Path>
+		</Node>
+		<Node id="18">
+			<Name>BITFeedbackManager</Name>
+			<Path>Classes/BITFeedbackManager.html</Path>
+		</Node>
+		<Node id="19">
+			<Name>BITHockeyBaseManager</Name>
+			<Path>Classes/BITHockeyBaseManager.html</Path>
+		</Node>
+		<Node id="20">
+			<Name>BITHockeyManager</Name>
+			<Path>Classes/BITHockeyManager.html</Path>
+		</Node>
+		<Node id="21">
+			<Name>BITUpdateManager</Name>
+			<Path>Classes/BITUpdateManager.html</Path>
+		</Node>
+		
+		
+		<Node id="22">
+			<Name>BITAttributedLabel</Name>
+			<Path>Protocols/BITAttributedLabel.html</Path>
+		</Node>
+		<Node id="23">
+			<Name>BITAttributedLabelDelegate</Name>
+			<Path>Protocols/BITAttributedLabelDelegate.html</Path>
+		</Node>
+		<Node id="24">
+			<Name>BITCrashManagerDelegate</Name>
+			<Path>Protocols/BITCrashManagerDelegate.html</Path>
+		</Node>
+		<Node id="25">
+			<Name>BITFeedbackComposeViewControllerDelegate</Name>
+			<Path>Protocols/BITFeedbackComposeViewControllerDelegate.html</Path>
+		</Node>
+		<Node id="26">
+			<Name>BITHockeyManagerDelegate</Name>
+			<Path>Protocols/BITHockeyManagerDelegate.html</Path>
+		</Node>
+		<Node id="27">
+			<Name>BITUpdateManagerDelegate</Name>
+			<Path>Protocols/BITUpdateManagerDelegate.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BITHockeyBaseManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BITHockeyBaseManager</TokenIdentifier>
+			<Abstract type="html">The internal superclass for all component managers</Abstract>
+			<DeclaredIn>BITHockeyBaseManager.h</DeclaredIn>
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BITHockeyBaseManager/setServerURL:</TokenIdentifier>
+			<Abstract type="html">Defines the server URL to send data to or request data from</Abstract>
+			<DeclaredIn>BITHockeyBaseManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *serverURL</Declaration>
+			
+			
+			<Anchor>//api/name/serverURL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BITHockeyBaseManager/serverURL</TokenIdentifier>
+			<Abstract type="html">Defines the server URL to send data to or request data from</Abstract>
+			<DeclaredIn>BITHockeyBaseManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) NSString *serverURL</Declaration>
+			
+			
+			<Anchor>//api/name/serverURL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BITHockeyBaseManager/setBarStyle:</TokenIdentifier>
+			<Abstract type="html">The UIBarStyle of the update user interface navigation bar.</Abstract>
+			<DeclaredIn>BITHockeyBaseManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/BITHockeyBaseManager/tintColor</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) UIBarStyle barStyle</Declaration>
+			
+			
+			<Anchor>//api/name/barStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BITHockeyBaseManager/barStyle</TokenIdentifier>
+			<Abstract type="html">The UIBarStyle of the update user interface navigation bar.</Abstract>
+			<DeclaredIn>BITHockeyBaseManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/BITHockeyBaseManager/tintColor</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, assign) UIBarStyle barStyle</Declaration>
+			
+			
+			<Anchor>//api/name/barStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BITHockeyBaseManager/setTintColor:</TokenIdentifier>
+			<Abstract type="html">The tint color of the update user interface navigation bar.</Abstract>
+			<DeclaredIn>BITHockeyBaseManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/BITHockeyBaseManager/barStyle</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) UIColor *tintColor</Declaration>
+			
+			
+			<Anchor>//api/name/tintColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BITHockeyBaseManager/tintColor</TokenIdentifier>
+			<Abstract type="html">The tint color of the update user interface navigation bar.</Abstract>
+			<DeclaredIn>BITHockeyBaseManager.h</DeclaredIn>			
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/BITHockeyBaseManager/barStyle</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, strong) UIColor *tintColor</Declaration>
+			
+			
+			<Anchor>//api/name/tintColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BITHockeyBaseManager/setModalPresentationStyle:</TokenIdentifier>
+			<Abstract type="html">The UIModalPresentationStyle for showing the update user interface when invoked
+with the update alert.</Abstract>
+			<DeclaredIn>BITHockeyBaseManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UIModalPresentationStyle modalPresentationStyle</Declaration>
+			
+			
+			<Anchor>//api/name/modalPresentationStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BITHockeyBaseManager/modalPresentationStyle</TokenIdentifier>
+			<Abstract type="html">The UIModalPresentationStyle for showing the update user interface when invoked
+with the update alert.</Abstract>
+			<DeclaredIn>BITHockeyBaseManager.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) UIModalPresentationStyle modalPresentationStyle</Declaration>
+			
+			
+			<Anchor>//api/name/modalPresentationStyle</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

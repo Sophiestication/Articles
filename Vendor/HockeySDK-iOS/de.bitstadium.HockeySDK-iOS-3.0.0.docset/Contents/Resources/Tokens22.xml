@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BITAttributedLabel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BITAttributedLabel</TokenIdentifier>
+			<Abstract type="html">The background corner radius. Value must be an NSNumber. Default value is 5.0f.</Abstract>
+			<DeclaredIn>BITAttributedLabel.h</DeclaredIn>
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

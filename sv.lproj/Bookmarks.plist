@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groups</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Famous Paintings</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Arnolfini Portrait</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Arnolfini_Portrait</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Mona Lisa</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Mona_Lisa</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Massacre of the Innocents</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Massacre_of_the_Innocents</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Night Watch</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Night_Watch_(painting)</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Girl with a Pearl Earring</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Girl_with_a_pearl_earring</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Mr and Mrs Andrews</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Mr_and_Mrs_Andrews</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Juliette Récamier</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Madame_Recamier</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>The Great Wave off Kanagawa</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Behind_the_Great_Wave_at_Kanagawa</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Sunflowers</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Sunflowers_(series_of_paintings)</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Garçon à la pipe </string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Garcon_a_la_pipe</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>American Gothic</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/American_Gothic</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>No. 5, 1948</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Number_5_(painting)</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Artists</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Leonardo da Vinci</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Leonardo_da_Vinci</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Jan Vermeer</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Jan_Vermeer</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pablo Picasso</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Picasso</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Jasper Johns</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Jasper_Johns</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Grant Wood</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Grant_Wood</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Michelangelo</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Michelangelo</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Hokusai</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Katsushika_Hokusai</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Raphael</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Raphael</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Rembrandt</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Rembrandt</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Thomas Gainsborough</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Thomas_Gainsborough</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Vincent van Gogh</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Vincent_van_Gogh</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Roy Lichtenstein</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Roy_Lichtenstein</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Post Impressionism</string>
+			<key>URL</key>
+			<string>http://en.wikipedia.org/wiki/Post_Impressionism</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Modern Art</string>
+			<key>URL</key>
+			<string>http://en.wikipedia.org/wiki/Modern_Art</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Surrealism</string>
+			<key>URL</key>
+			<string>http://en.wikipedia.org/wiki/Surrealism</string>
+		</dict>
+	</array>
+</dict>
+</plist>

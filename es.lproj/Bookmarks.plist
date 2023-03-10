@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groups</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Pinturas Famosas</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Retrato de Giovanni Arnolfini y su esposa</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Retrato_de_Giovanni_Arnolfini_y_su_esposa</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>La Gioconda</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/La_Gioconda</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Día de los Santos Inocentes</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/D%C3%ADa_de_los_Santos_Inocentes</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>La ronda de noche</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/La_ronda_de_noche</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>La joven de la perla</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/La_joven_de_la_perla</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>El Señor y la Señora Andrews</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/El_Se%F1or_y_la_Se%F1ora_Andrews</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Jeanne Françoise Julie Adélaïde Récamier</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Jeanne_Fran%E7oise_Julie_Ad%E9la%EFde_R%E9camier</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>La gran ola de Kanagawa</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/La_gran_ola_de_Kanagawa</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Los girasoles</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Los_girasoles</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>American Gothic</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/American_Gothic</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Artistas</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Leonardo da Vinci</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Leonardo_da_Vinci</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Jan Vermeer</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Johannes_Vermeer</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pablo Picasso</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Pablo_Picasso</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Grant Wood</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Grant_Wood</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Miguel Ángel</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Miguel_%C1ngel</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Katsushika Hokusai</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Katsushika_Hokusai</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Rafael Sanzio</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Rafael_Sanzio</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Rembrandt</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Rembrandt</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Thomas Gainsborough</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Thomas_Gainsborough</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Vincent van Gogh</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Vincent_van_Gogh</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Roy Lichtenstein</string>
+					<key>URL</key>
+					<string>http://es.wikipedia.org/wiki/Roy_Lichtenstein</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Postimpresionismo</string>
+			<key>URL</key>
+			<string>http://es.wikipedia.org/wiki/Posimpresionismo</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Arte Moderno</string>
+			<key>URL</key>
+			<string>http://es.wikipedia.org/wiki/Arte_moderno</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Surrealismo</string>
+			<key>URL</key>
+			<string>http://es.wikipedia.org/wiki/Surrealismo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

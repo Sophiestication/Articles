@@ -1,0 +1,191 @@
+html {
+    background: none;
+    /* background: url(../images/linen.png); */
+}
+
+body {
+	margin: 0 10px;
+	padding-top: 0;
+}
+
+#bodyContent > p, .mw-content-text > p {
+	width: auto;
+}
+
+h1 {
+	font-size: 220%;
+	line-height: 1.2em;
+	margin: 1em 0;
+}
+h2 {
+	font-size: 180%;
+}
+h3 {
+	font-size: 150%;
+}
+h1, h2, h3, h4, h5, h6 { color: #333; }
+
+body.xx-small { font-size: 0.8em; line-height: 1.45em; }
+body.x-small { font-size: 0.9em; line-height: 1.5em; }
+body.small { font-size: 1em; line-height: 1.55em; }
+body, body.medium { font-size: 1.1em; line-height: 1.6em; }
+body.large { font-size: 1.15em; line-height: 1.65em; }
+body.x-large { font-size: 1.2em; line-height: 1.7em; }
+body.xx-large { font-size: 1.3em; line-height: 1.75em; }
+
+/*.thumbinner img,*/
+.image img,
+.gallery .thumb img,
+.article-summary img,
+.article-summary.no-photo :first-child,
+img.thumbborder {
+	-webkit-box-shadow: 0px 2px 5px rgba(70,48,24,0.25);
+}
+
+.thumbnail-placeholder.tright,
+.table-placeholder.tright,
+.floatright > .thumbnail-placeholder {
+	width: 200px !important;
+}
+
+.tright .image img,
+.tright .thumbimage,
+.floatright > .image img,
+.article-summary .image img {
+	width: 188px !important;
+	min-width: 188px !important;
+}
+
+.thumb {
+	width: 200px !important;
+	min-width: 200px !important;
+}
+
+.gallerybox .thumb {
+	width: auto !important;
+}
+
+.thumb.tright .thumbcaption,
+.thumb.tright big,
+.thumbnail-placeholder.tright .thumbcaption,
+.thumbnail-placeholder.tright big {
+	display: inherit !important;
+}
+
+.thumb.tright + .table-placeholder,
+.thumbnail-placeholder.tright + .table-placeholder,
+.table-placeholder.tright + .table-placeholder {
+	width: 200px;
+}
+
+a {
+	color: #7f0c12;
+}
+
+/*
+:not(.image):not(.table-cell):not(.table-placeholder).articlekit-highlighted,
+:not(.image):not(.table-cell):not(.table-placeholder):link:hover,
+:not(.image):not(.table-cell):not(.table-placeholder):link:target {
+	background-color: #7f0c12 !important;
+}*/
+
+.external,
+.extiw {
+    /*border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 0px rgba(0,0,0,0.1);*/
+	background: rgba(84,54,32,0.06) url("x-articlekit-resource://externalLinkiPad.png") no-repeat right center;
+	color: #987d6b;
+}
+
+.thumbnail-placeholder {
+	background-color: transparent;
+	background-image: url("x-articlekit-resource://imageDocumentPlaceholderPad.png");
+	border-color: #cabead;
+}
+
+.thumbnail-placeholder.error {
+	background-image: url("x-articlekit-resource://imageErrorDocumentPlaceholderPad.png");
+}
+
+#bodyContent .thumbcaption,
+#bodyContent .gallery .gallerybox .gallerytext {
+	color: #987d6b;
+    margin: 0 auto 1em auto !important;
+    font-size: 80%;
+}
+
+.gallery .gallerybox .gallerytext {
+	max-width: 60%;
+}
+
+div.thumbcaption a,
+.gallery .gallerybox .gallerytext a {
+	color: inherit;
+	font-weight: bold;
+	/*border-bottom: 1px solid #a6a6a6;
+	border-color: #eaeaea;*/
+}
+
+.gallerybox .image img {
+	width: 200px !important;
+}
+
+.table-cell {
+	color: #987d6b;
+    background: rgba(84,54,32,0.05);
+    border: 1px solid rgba(0,0,0,0.05) !important;
+    -webkit-box-shadow: inset 0px 1px 1px rgba(84,54,32,0.05);
+}
+
+/*
+.table-cell.articlekit-highlighted,
+.table-cell:hover {
+    color: #7f0c12;
+}*/
+
+.table-cell:after {
+	background-image: url("disclosureIndicatoriPad.png");
+	background-size: 17px;
+}
+
+.article-summary .vcard-border {
+	background: url("x-articlekit-resource://pageCurliPad.png") !important;
+	background-size: 90px;
+	height: 90px;
+	width: 90px;
+	bottom: -16px;
+	right: -15px;
+}
+
+.thumbimage img {
+	max-width: 100%;
+}
+
+.new,
+.new:hover {
+	color: inherit !important;
+	pointer-events: inherit !important;
+	cursor: default !important;
+}
+
+#Vorlage_Uberarbeiten,
+#Vorlage_Lueckenhaft {
+	background-color: transparent !important;
+	border-color: #cabead !important;
+	color: inherit !important;
+}
+
+/* es */
+body:lang(es) .thumbinner > div[style] {
+	color: #987d6b;
+}
+
+@media (-webkit-min-device-pixel-ratio:2) { 
+	body { text-shadow: rgba(255,254,255,0.8) 0 1px 1px; }
+
+    .article-summary .vcard-border { background: url("x-articlekit-resource://pageCurliPad@2x.png") !important; }
+    .table-cell:after { background-image: url("x-articlekit-resource://disclosureIndicatoriPad@2x.png"); }
+    .thumbnail-placeholder { background-image: url("x-articlekit-resource://imageDocumentPlaceholderPad@2x.png"); }
+	.thumbnail-placeholder.error { background-image: url("x-articlekit-resource://imageErrorDocumentPlaceholderPad.png@2x.png"); }
+	.external, .extiw { background-image: url("x-articlekit-resource://externalLinkiPad@2x.png"); }
+}

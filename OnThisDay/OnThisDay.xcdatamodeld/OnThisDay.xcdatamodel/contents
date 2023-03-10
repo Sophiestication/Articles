@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="12A269" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Day" representedClassName="SDDay" syncable="YES">
+        <attribute name="calendarDay" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="calendarMonth" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="contentOffset" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modificationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wikipediaURL" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="groups" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="EventGroup" inverseName="day" inverseEntity="EventGroup" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Event" representedClassName="SDEvent" syncable="YES">
+        <attribute name="markup" attributeType="String" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="group" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="EventGroup" inverseName="events" inverseEntity="EventGroup" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="EventGroup" representedClassName="SDEventGroup" syncable="YES">
+        <attribute name="fetchOffset" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="day" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Day" inverseName="groups" inverseEntity="Day" indexed="YES" syncable="YES"/>
+        <relationship name="events" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Event" inverseName="group" inverseEntity="Event" indexed="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Day" positionX="-362" positionY="-156" width="128" height="163"/>
+        <element name="Event" positionX="-162" positionY="48" width="128" height="103"/>
+        <element name="EventGroup" positionX="-360" positionY="51" width="128" height="133"/>
+    </elements>
+</model>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groups</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Berühmte Gemälde</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Die Arnolfini-Hochzeit</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Arnolfini-Hochzeit</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Mona Lisa</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Mona_Lisa</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Die Nachtwache</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Die_Nachtwache</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Das Mädchen mit dem Perlenohrgehänge</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Das_M%E4dchen_mit_dem_Perlenohrgeh%E4nge</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Sonnenblumen</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Sonnenblumen_(van_Gogh)</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Junge mit Pfeife</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Junge_mit_Pfeife</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>American Gothic</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/American_Gothic</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>No. 5, 1948</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/No._5,_1948</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Künstler</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Leonardo da Vinci</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Leonardo_da_Vinci</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Jan Vermeer</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Jan_Vermeer</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pablo Picasso</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Pablo_Picasso</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Jasper Johns</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Jasper_Johns</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Grant Wood</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Grant_Wood</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Michelangelo</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Michelangelo</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Hokusai</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Hokusai</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Raphael</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Raffael</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Rembrandt</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Rembrandt_van_Rijn</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Thomas Gainsborough</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Thomas_Gainsborough</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Vincent van Gogh</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Vincent_van_Gogh</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Roy Lichtenstein</string>
+					<key>URL</key>
+					<string>http://de.wikipedia.org/wiki/Roy_Lichtenstein</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Post-Impressionismus</string>
+			<key>URL</key>
+			<string>http://de.wikipedia.org/wiki/Post-Impressionismus</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Renaissance</string>
+			<key>URL</key>
+			<string>http://de.wikipedia.org/wiki/Renaissance</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Surrealismus</string>
+			<key>URL</key>
+			<string>http://de.wikipedia.org/wiki/Surrealismus</string>
+		</dict>
+	</array>
+</dict>
+</plist>

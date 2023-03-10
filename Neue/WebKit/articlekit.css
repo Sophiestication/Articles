@@ -1,0 +1,972 @@
+/* @group Reset */
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}									
+
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+
+/* force a vertical scrollbar to prevent a jumpy page */
+html {overflow-y: scroll;}
+
+/* we use a lot of ULs that aren't bulleted. 
+	don't forget to restore the bullets within content. */
+ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before, 
+blockquote:after, 
+q:before, 
+q:after {content: ''; content: none;}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+del {text-decoration: line-through;}
+
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+/* tables still need cellspacing="0" in the markup */
+table {border-collapse: collapse; border-spacing: 0;}
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+input, select {vertical-align: middle;}
+
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom; *vertical-align: baseline;}
+
+select, input, textarea {font: 99% sans-serif;}
+
+/* table {font-size: inherit; font: 100%;} */
+ 
+/* Accessible focus treatment
+	people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active {outline: none;}
+
+small {font-size: 85%;}
+
+strong, th {font-weight: bold;}
+
+td, td img {vertical-align: top;} 
+
+/* Make sure sup and sub don't screw with your line-heights
+	gist.github.com/413930 */
+sub, sup {font-size: 75%; line-height: 0; position: relative;}
+sup {top: -0.1em;}
+sub {bottom: -0.1em;}
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+/* hand cursor on clickable elements */
+.clickable,
+label, 
+input[type=button], 
+input[type=submit], 
+button {cursor: pointer;}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {margin: 0;}
+
+/* let's clear some floats */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.clearfix:after { clear: both; }  
+.clearfix { zoom: 1; }
+
+.hidden { display:none; visibility:hidden; } 
+.visuallyhidden {
+	position:absolute !important;    
+ 	clip: rect(1px, 1px, 1px, 1px);
+}
+.invisible { visibility: hidden; } 
+
+/* @end */
+
+/* @group Fonts */
+
+@font-face {
+	font-family: "Tisa";
+	src: url(TisaMobiPro.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "Tisa";
+	src: url(TisaMobiPro-Bold.ttf) format("truetype");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Tisa";
+	src: url(TisaMobiPro-Italic.ttf) format("truetype");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Tisa";
+	src: url(TisaMobiPro-BoldItalic.ttf) format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Yoga Sans";
+	src: url(YogaSansMobiPro.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "Yoga Sans";
+	src: url(YogaSansMobiPro-Bold.ttf) format("truetype");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Yoga Sans";
+	src: url(YogaSansMobiPro-Italic.ttf) format("truetype");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Yoga Sans";
+	src: url(YogaSansMobiPro-BoldItalic.ttf) format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* @end */
+
+/* @group Foundation */
+
+html { -webkit-text-size-adjust: none; }
+
+h1,h2,h3,h4,h5,h6 { font-weight: inherit; text-rendering: optimizeLegibility; }
+
+small { font-size:85%; }
+strong, th { font-weight: bold; }
+
+td, td img { vertical-align:top; } 
+
+sub { vertical-align: sub; font-size: smaller; }
+sup { vertical-align: super; font-size: smaller; }
+
+body {
+	font-family: "Tisa", Georgia, serif;
+	font-size: 1.1em;
+	line-height: 1.65em;
+	color: #212121;
+}
+
+/*html, body {
+	background: transparent;
+}*/
+
+.rtl { direction: rtl; }
+.ltr { direction: ltr; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Yoga Sans", sans-serif;
+}
+
+h1 {
+	margin: .5em 0 1em 0;
+	color: #212121;
+	font-size: 2em;
+	line-height: 1.1em;
+}
+
+h2 {
+	margin: 1.8em 0 0.5em 0;
+	color: #5e5e5e;
+	font-size: 1.6em;
+}
+
+h3 {
+	margin: 1.6em 0 .5em 0;
+	color: #666;
+	font-size: 1.4em;
+}
+
+h4 {
+	margin: 1.5em 0 .3em 0;
+	color: #666;
+	font-size: 1.2em;
+}
+
+h2 + h3,
+h2 + div + h3,
+h3 + h4 {
+	margin-top: 0em;
+}
+
+section > ol > li,
+section > ul > li {
+	margin: .5em 0;
+	list-style-type: square;
+	list-style-position: outside;
+}
+
+dl {
+	margin: 1.5em 0;
+}
+
+p { 
+	margin: 1em 0;
+}
+
+p {
+	text-align: inherit;
+	line-height: inherit;
+}
+
+p br:only-child {
+	display: none;
+}
+
+.userSelectionDisabled { -webkit-user-select: none !important; }
+.userInteractionDisabled {
+	pointer-events: none !important;
+	-webkit-user-select: none !important;
+}
+
+.rellink {
+	padding: 0;
+	margin-bottom: .5em;
+	font-family: "Yoga Sans";
+	font-size: .95em;
+}
+
+.dablink {
+	font-size: smaller;
+}
+
+.tleft, .float-left { float: left; clear: left; }
+.tright, .float-right { float: right; clear: right; }
+.floatnone { float: none; clear: both; }
+
+.center {
+	text-align: center;
+}
+
+.center * {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.noresize {
+	width: 100% !important;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+p > br[style],
+p > div[style] {
+	clear: inherit !important;
+}
+
+pre { white-space: pre; }
+pre code { background: #e0effe; }
+
+/* @end */
+
+/* @group Article */
+
+body {
+	background2: lightgrey;
+}
+
+#ak-article {
+	margin: 0 auto;
+	padding: 16px 60px;
+	width: 648px;
+	overflow-x: visible;
+	background: #fff;
+}
+
+#ak-article { -webkit-hyphens: auto; }
+#ak-article h1 { -webkit-hyphens: none; }
+
+.ak-scrollview {
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+	width: 768px;
+	margin-left: -60px;
+}
+
+.ak-scrollview::-webkit-scrollbar {
+	display: none;
+}
+
+.ak-scrollview > .ak-content {
+	padding: 0 60px;
+}
+
+@media (min-width2: 768pt) {
+}
+
+@media (max-device-width:480pt) {
+	
+#ak-article {
+	padding: 0 10px;
+	width: 300px;
+}
+	
+}
+
+/* @end */
+
+/* @group Links */
+
+a, a:hover {
+	color: #146afe;
+	text-decoration: none;
+	-webkit-border-radius: 3px;
+}
+
+a.ak-highlighted,
+a:hover {
+	color: #fff !important;
+	background-color: #146afe;
+	border-color: #146afe;
+	text-shadow: none;	
+}
+
+::selection {
+	background: #146afe;
+	color: #fff;
+	text-shadow: none;
+}
+
+.external {
+	line-height: 1.75em;
+	color: inherit;
+	text-shadow: none;
+	background: #eaeaea url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJNJREFUeNpi/P//PwOxgBGk2MTEhB/I3gjE9WfOnDmISzETlM4BYnsg3g7UaI/XZBAAKpoPpBKA+DsQe2KzgRHZzYQ0MKJ7EKjhPJAyAOIvQKwE1PAa3c0whXVQhX+BOAtZIbqbQQoboQoTgQoX4wq6fCB7AlRhHFDhMnxBtwaIb+JTCAYgk0HY2NiYDcbGhQECDAAXuGOkVWIR8AAAAABJRU5ErkJggg%3D%3D") no-repeat right center;
+	-webkit-border-radius: 3px;
+	padding: 0px 16px 0px 4px;
+	word-wrap: break-word;
+	
+	
+	background-color: rgba(140, 140, 140, 0.2);
+}
+
+.external.ak-highlighted,
+.external:hover {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAGVJREFUeNpi/P//PwOxgAlK8wPxASC2x6saZDIQV/+HgG9AbA8Vw8DInPmENKAL4NWAzbrzUA2fgVgUn+I6qMI/QByLz2S8CpEV5yMpjCIUGtJAfAOfQhBmRIpBNiD+hS9OAAIMAH/AI/ygKBJ7AAAAAElFTkSuQmCC");
+}
+
+.new,
+.new:hover,
+.IPA a,
+.IPA a:hover {
+	color: inherit;
+	pointer-events: none !important;
+	cursor: default;
+}
+
+.IPA > a > span[style] {
+	border-bottom: none !important;
+}
+
+.image, .image:hover {
+	border: none;
+	background: none;
+}
+
+/* @end */
+
+/* @group Quotes */
+
+blockquote, .ak-quote {
+	margin: 1.5em 2em 1em;
+	color: #919191;
+	/* font-family: "Yoga Sans"; */
+}
+
+blockquote:before, .ak-quote:before {
+	content: "“"; 
+	display: block;
+	margin-left: -.5em;
+	height: 0;
+	font-size: 4em;
+}
+
+blockquote footer,
+.ak-quote footer,
+blockquote .templatequotecite,
+.ak-quote .templatequotecite {
+	text-align: right;
+	margin-right: 0em;
+}
+
+blockquote footer strong,
+.ak-quote footer strong,
+blockquote footer b,
+.ak-quote footer b {
+	font-weight: inherit;
+}
+
+blockquote a,
+.ak-quote a {
+	font-weight: bolder;
+	color: inherit;
+}
+
+blockquote a:hover,
+.ak-quote a:hover {
+	background-color: #919191;
+}
+
+blockquote p,
+.ak-quote p {
+	margin-top: 0;
+}
+
+blockquote p:last-child,
+.ak-quote p:last-child {
+	margin-bottom: 0;
+}
+
+aside.ak-quote {
+	width: 288px;
+	float: left;
+	clear: left;
+	font: 1em/1.4em normal "Yoga Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+aside.ak-quote.align-right {
+	float: right;
+	clear: right;
+	margin-right: inherit;
+}
+
+aside.ak-quote footer {
+	margin-top: .5em;
+	text-align: left;
+}
+
+/* @end */
+
+/* @group Image Previews */
+
+section > .ak-image,
+.ak-image.align-center {
+	margin: 1em 0;
+}
+
+.ak-preview {
+	overflow: hidden;
+	-webkit-box-shadow: 0px 1px 4px #666;
+	border: 4px solid #fff;
+}
+
+.ak-image img {
+	display: block;
+}
+
+.ak-image figcaption {
+	margin-top: 6px;
+	font: .85em/1.3em normal "Yoga Sans", "Helvetica Neue", Helvetica, sans-serif;
+	/* color: #919191; */
+	/* background: #fff; */ /* for smoother CSS transitions/transforms */
+	word-wrap: break-word;
+}
+
+.ak-image figcaption p {
+	margin: 0;
+}
+
+.ak-image figcaption .legend {
+	text-align: left;
+	font-size: smaller;
+}
+
+.ak-image.align-right img,
+.ak-image.align-left img,
+.ak-image.align-left figcaption,
+.ak-image.align-right figcaption {
+}
+
+.ak-image.align-left figcaption,
+.ak-image.align-right figcaption {
+	width: 208px;
+}
+
+.ak-image.align-left,
+.ak-image.align-right {
+	float: right;
+	clear: right;
+	margin: .7em 0 .7em 1em;
+	-webkit-margin-collapse: collapse;
+}
+
+figure + div[style] {
+	clear: inherit !important;
+}
+
+/* @group Loading */
+
+.ak-image.ak-loading img {
+	visibility: hidden;
+}
+
+.ak-image.ak-loading > a {
+	display: block;
+	background: #f4f4f4 no-repeat center;
+	border: 1px dashed #d3d3d3;
+	margin: -1px; /* for the border */
+	-webkit-border-radius: 5px;
+	-webkit-user-select: none;
+	/* background-image: url(imageDocumentPlaceholder.png); */
+	/* background-image: -webkit-canvas(ak-progress-indicator-2); */
+}
+
+.ak-image.ak-loading.ak-loading-error > a {
+	background-image: url(imageErrorDocumentPlaceholder.png);
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Gallery */
+
+.ak-gallery {
+	display: block;
+	margin: 1em auto;
+	min-width: 100%;
+	clear: both;
+}
+
+.ak-gallery header {
+	text-align: center;
+	font-family: "Yoga Sans";
+	font-size: .95em;
+	color: #919191;
+}
+
+.ak-gallery ul {
+	-webkit-column-count: 2;
+	-webkit-column-width: 302px;
+	-webkit-column-gap: 22px;
+}
+
+.ak-gallery .ak-image {
+}
+
+.ak-gallery .ak-image figcaption {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.ak-gallery li {
+	list-style: none;
+	padding: .5em 4px 0;
+	-webkit-column-break-inside: avoid;
+}
+
+.ak-gallery li:last-child {
+	margin-bottom: 0;
+}
+
+/* @end */
+
+/* @group Columns */
+
+.column-count-2,
+.column-count-3,
+.column-count-4 {
+	-webkit-column-count: 2 !important;
+}
+
+.column-count li {
+	list-style: outside square;
+}
+
+/* @end */
+
+/* @group Tables */
+
+td h3 {
+	margin-top: inherit;
+}
+
+td ul {
+	margin-right: 3.5em;
+}
+
+/* @end */
+
+/* @group TeX */
+
+img.tex {
+	vertical-align: middle;
+}
+
+/* @group My Group */
+
+
+
+/* @end */
+
+/* @end */
+
+/* @group Reference */
+
+.reference {
+	display: none !important;
+}
+
+.mw-headline#Notes,
+.mw-headline#References,
+.references,
+.refbegin {
+	display: none !important;
+}
+
+/* @end */
+
+/* @group Categories */
+
+#catlinks, .catlinks {
+	display: none !important;
+}
+
+/* @end */
+
+/* @group Metadata */
+
+#siteSub, #jump-to-nav, #toc, .portal, .mw-hidden-cats-hidden, .printfooter, .editsection, .Template-Fact, button.section_heading, .section_anchors, .stub, .dmbox-disambig, .topicon, .boilerplate {
+	display: none !important;
+}
+
+.noexcerpt a img,
+.noexcerpt .IPA,
+.haudio .fn a img {
+	display: none;
+}
+
+.metadata.mbox-small, .metadata.ambox {
+	display: none;
+}
+
+sup.noprint {
+	display: none;
+}
+
+.sisterproject img {
+	display: none;
+}
+
+/* @group dablink */
+
+.dablink {
+	display: none;
+	margin: 10px auto;
+	padding: 10px;
+	font: normal 0.95em/1.4em "Yoga Sans", "Helvetica Neue", Helvetica, sans-serif;
+	color: #666;
+	background: #f4f4f4;
+	border: 1px dashed #d3d3d3;
+	-webkit-border-radius: 5px;
+}
+
+.dablink a {
+	color: inherit;
+	font-weight: bold;
+}
+
+.dablink a:hover {
+	background-color: #666;
+}
+
+.dablink b, .dablink strong {
+	font-weight: inherit;
+}
+
+/* @end */
+
+/* @group ISBN */
+
+.mw-magiclink-isbn,
+.citation.book a {
+	color: inherit;
+	pointer-events: none;
+	cursor: text;
+}
+
+/* @end */
+
+.flagicon img {
+	margin: 0 4px;
+	min-width: 16px;
+	border: 1px solid #999;
+	vertical-align: baseline;
+}
+
+span.noprint {
+	display: none; /* TODO? */
+}
+
+/* @end */
+
+/* @group Image Maps */
+
+.noresize img[src$='desc-20.png'] {
+	display: none;
+}
+
+/* @end */
+
+/* @group Floating Tables */
+
+table.align-right,
+table.align-left {
+	font: normal .95em "Yoga Sans", sans-serif;
+	overflow: visible;
+	width: auto !important;
+}
+
+/* @end */
+
+/* @group Tables */
+
+.wikitable, .toccolours {
+	font: normal .95em "Yoga Sans", sans-serif;
+	width: 100%;
+	empty-cells: show;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.toccolours td {
+	vertical-align: middle;
+}
+
+/* @end */
+
+/* @group Wikitable */
+
+.wikitable {
+	font: normal .95em "Yoga Sans", sans-serif;
+	color: #333;
+	empty-cells: show;
+	overflow-x: visible;
+	-webkit-overflow-scrolling: touch;
+	width: 100%;
+}
+
+section > .wikitable {
+	margin: 2em 0;
+	min-width: 100%;
+}
+
+/* no floating tables for now */
+.wikitable.align-left,
+.wikitable.align-right {
+	margin: 2em 0 !important;
+	float: none !important;
+	width: 100% !important;
+}
+
+.wikitable.align-left caption br,
+.wikitable.align-right caption br {
+	display: none;
+}
+
+.wikitable th, .wikitable td {
+	border-collapse: collapse;
+	padding: .3em;
+	border: 1px solid #bcbcbc;
+}
+
+.wikitable th {
+	font-weight: inherit;
+	color: #3f3f3f;
+	/*text-shadow: 0px 1px 0px #fff;*/
+	background: #f2f2f2;
+}
+
+.wikitable > caption {
+	margin-bottom: .5em;
+	color: #919191;
+}
+
+.wikitable > caption b {
+	font-weight: inherit;
+}
+
+.wikitable > caption a {
+	font-weight: bolder;
+	color: inherit;
+}
+
+.wikitable > caption a:hover {
+	background-color: #919191;
+}
+
+table .wikitable { margin-right: 1em; }
+table td:last-of-type .wikitable { margin-right: inherit; }
+
+.wikitable .ak-image img {
+	border: inherit;
+	-webkit-box-shadow: inherit;
+}
+
+.wikitable td li {
+	list-style-position: inside;
+}
+
+/* @group Succession Box */
+
+.wikitable.succession-box {
+	width: 100%;
+	margin: 2em 0 !important;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group Infobox */
+
+.infobox {
+	display: table;
+	float: right;
+	clear: right;
+	font: normal .95em "Yoga Sans", sans-serif;
+	color: #333;
+	empty-cells: show;
+	overflow-x: visible;
+	-webkit-overflow-scrolling: touch;
+	border: 1px solid #bcbcbc;
+	min-width: 320pt;
+}
+
+.infobox th, .infobox td {
+	padding: .25em;
+	vertical-align: baseline;
+}
+
+.infobox tr:first-child th {
+	background-color: inherit !important;
+}
+
+/* @end */
+
+/* @group tracklist */
+
+div.tracklist[style] {
+	width: auto !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+table.tracklist {
+	font: .95em "Yoga Sans";
+}
+
+.tracklist th,
+.tracklist td {
+	padding: 4px;
+}
+
+/* @end */
+
+/* @group Navbox */
+
+.navbox {
+	display: none;
+}
+
+/*article > * > .vertical-navbox {
+	display: none;
+}*/
+
+/* @end */
+
+/* @group Plainlist */
+
+table.plainlist {
+	font-family: "Yoga Sans", sans-serif;
+}
+
+.plainlist ul {
+	margin: auto;
+}
+
+.plainlist li {
+	list-style-position: inside;
+	list-style: none;
+	text-align: center;
+}
+
+/* @end */
+
+@media print {
+
+
+
+}
+
+/* @group iOS 7 */
+
+/* @media (max-device-width:480pt) {
+
+#ak-article {
+	padding: 0;
+	width: 320px;
+	overflow: visible;
+}
+
+#ak-article section > *,
+.ak-image figcaption {
+	padding-left: 5px; padding-right: 5px;
+}
+
+#ak-article section > .ak-image {
+	padding-left: 0; padding-right: 0;
+}
+
+.ak-image,
+.ak-image.align-left,
+.ak-image.align-right {
+	margin-left: 0; margin-right: 0;
+	float: none; clear: both;
+}
+
+.ak-preview {
+	border: none;
+	-webkit-box-shadow: none;
+}
+
+.ak-preview {
+	max-height: 320px;
+}
+
+.ak-scrollview {
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.ak-scrollview div {
+	background: cyan url("imageDocumentPlaceholder.png");
+	height: 200px;
+	width: 1024px;
+}
+
+} */
+
+/* @end */
+
+table:not(.wikitable) {
+	display: none !important;
+}

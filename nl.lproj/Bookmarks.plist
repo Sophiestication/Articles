@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groups</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Beroemde schilderijen</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Portret van Giovanni Arnolfini en zijn vrouw</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Portret_van_Giovanni_Arnolfini_en_zijn_vrouw</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Mona Lisa</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Mona_Lisa</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Kindermoord van Bethlehem</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Kindermoord_van_Bethlehem</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>De Nachtwacht</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/De_Nachtwacht</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Het meisje met de parel</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Het_meisje_met_de_parel</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>De grote golf van Kanagawa</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/De_grote_golf_van_Kanagawa</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Zonnebloemen</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Zonnebloemen_(Van_Gogh)</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Kunstenaars</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Leonardo da Vinci</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Leonardo_da_Vinci</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Johannes Vermeer</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Johannes_Vermeer</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pablo Picasso</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Pablo_Picasso</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Jasper Johns</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Jasper_Johns</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Michelangelo Buonarroti</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Michelangelo_Buonarroti</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Katsushika Hokusai</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Katsushika_Hokusai</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Rafaël Santi</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Rafa%EBl_Santi</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Rembrandt van Rijn</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Rembrandt_van_Rijn</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Thomas Gainsborough</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Thomas_Gainsborough</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Vincent van Gogh</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Vincent_van_Gogh</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Roy Lichtenstein</string>
+					<key>URL</key>
+					<string>http://nl.wikipedia.org/wiki/Roy_Lichtenstein</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Postimpressionisme</string>
+			<key>URL</key>
+			<string>http://nl.wikipedia.org/wiki/Postimpressionisme</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Moderne (beeldende) kunst</string>
+			<key>URL</key>
+			<string>http://nl.wikipedia.org/wiki/Moderne_(beeldende)_kunst</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Surrealisme</string>
+			<key>URL</key>
+			<string>http://nl.wikipedia.org/wiki/Surrealisme</string>
+		</dict>
+	</array>
+</dict>
+</plist>

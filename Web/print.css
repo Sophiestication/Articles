@@ -1,0 +1,138 @@
+.printonly {
+	 display: inherit !important;
+}
+
+body {
+	color: black !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: inherit;
+}
+
+:link, :link:visited {
+	color: inherit;
+}
+
+.reference a {
+	background: inherit;
+	border-color: #666;
+}
+
+.external {
+	background: inherit;
+	padding: inherit;
+}
+
+/*
+.table-placeholder {
+	display: none;
+}
+*/
+
+.vcard-border,
+.search-result {
+	display: none !important;
+}
+
+.thumb.tright .thumbimage,
+.thumb.tright .thumbinner,
+.tright .thumbinner img,
+.thumbnail-placeholder.tright,
+.table-placeholder.tright,
+.article-summary .image img {
+	width: 240px !important;
+	min-width: 240px;
+}
+
+.thumbcaption {
+	width: 240px;
+}
+
+.thumb.tright .thumbcaption,
+.thumb.tright big,
+.thumbnail-placeholder.tright .thumbcaption,
+.thumbnail-placeholder.tright big {
+	display: inherit !important;
+}
+
+.thumbcaption a {
+	font-weight: inherit !important;
+}
+
+.ns-0 .ambox, 
+.ns-0 .navbox, 
+.ns-0 .infobox.sisterproject, 
+.ns-0 .dablink, 
+.ns-0 .metadata,
+#filetoc, 
+#footer-places,
+.editlink,
+span.collapseButton, a.NavToggle,
+.noprint {
+    display: none;
+}
+
+#content cite a.external.text:after,
+.nourlexpansion a.external.text:after,
+.nourlexpansion a.external.autonumber:after {
+    display: none !important;
+}
+
+table.collapsible tr, div.NavPic, div.NavContent {
+    display: block !important;
+}
+table.collapsible tr {
+    display: table-row !important;
+}
+
+.skin-simple div#column-one,
+.skin-simple div#f-poweredbyico,
+.skin-simple div#f-copyrightico,
+.skin-simple .editsection { 
+    display: none; 
+}
+
+table.wikitable {
+    margin: 1em 1em 1em 0;
+    border: 1px #aaa solid;
+    border-collapse: collapse;
+}
+.wikitable th, .wikitable td {
+    border: 1px #aaa solid;
+    padding: 0.2em;
+}
+.wikitable th {
+    text-align: center;
+    background: #F2F2F2;
+    font-weight: bold;
+}
+.wikitable caption {
+    font-weight: bold;
+}
+
+/* Remove once r76522 is live */
+.wikitable, .thumb, img {
+	page-break-inside: avoid;
+}
+h2, h3, h4, h5, h6 {
+	page-break-after: avoid;
+}
+p {
+	widows: 3;
+	orphans: 3;
+}
+
+body.hasHeaderView { margin-top: inherit; }
+
+.infobox, .wikitable {
+	display: inherit !important;
+	float: right;
+	margin: auto auto 1em 1em !important;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.infobox img, .wikitable img {
+	border: inherit;
+	-webkit-box-shadow: none;
+}

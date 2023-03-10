@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groups</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Pittori Famosi</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Ritratto dei coniugi Arnolfini</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Ritratto_dei_coniugi_Arnolfini</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Gioconda</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Gioconda</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Strage degli innocenti</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Strage_degli_innocenti</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Ronda di notte</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Ronda_di_notte</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Ragazza col turbante</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Ragazza_col_turbante_(Vermeer)</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Girasoli</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Girasoli_(Van_Gogh)</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Ragazzo con pipa</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Ragazzo_con_pipa</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>American Gothic</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/American_Gothic_(dipinto)</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Artisti</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Leonardo da Vinci</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Leonardo_da_Vinci</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Jan Vermeer</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Jan_Vermeer</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pablo Picasso</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Pablo_Picasso</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Jasper Johns</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Jasper_Johns</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Grant Wood</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Grant_Wood</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Michelangelo Buonarroti</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Michelangelo_Buonarroti</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Hokusai</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Hokusai</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Raffaello Sanzio</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Raffaello_Sanzio</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Rembrandt</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Rembrandt_Harmenszoon_van_Rijn</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Thomas Gainsborough</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Thomas_Gainsborough</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Vincent van Gogh</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Vincent_van_Gogh</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Roy Lichtenstein</string>
+					<key>URL</key>
+					<string>http://it.wikipedia.org/wiki/Roy_Lichtenstein</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Post-impressionismo</string>
+			<key>URL</key>
+			<string>http://it.wikipedia.org/wiki/Post-impressionismo</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Cubismo</string>
+			<key>URL</key>
+			<string>http://it.wikipedia.org/wiki/Cubismo</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Surrealismo</string>
+			<key>URL</key>
+			<string>http://it.wikipedia.org/wiki/Surrealismo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,105 @@
+body {
+	background: #f2f2f2;
+}
+
+.tableview {
+	width: 320px;
+	margin: 4em;
+	padding: 0;
+	color: #212121;
+	font: 11pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background: white;
+	border-radius: 4px;
+}
+
+.tableview li {
+	margin: 0;
+	padding: 10px;
+	height: 90px;
+	list-style: none;
+	clear: both;
+	border-bottom: 1px solid #9f9f9f;
+	border-color: #efefef;
+	position: relative;
+}
+
+.tableview li:last-child {
+	border-bottom: none;
+}
+
+.tableview .title {
+	display: block;
+	font-weight: bold;
+	line-height: 20px;
+	width: 225px;
+	margin-bottom: 2px;
+}
+
+.tableview .text {
+	display: block;
+	color: #a2a2a2;
+	font-size: 13px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 66px;
+	width: 225px;
+	-webkit-hyphens: auto;
+    /*-webkit-hyphenate-limit-after: 1;
+    -webkit-hyphenate-limit-before: 3;*/
+}
+
+.tableview li .image {
+	width: 60px; height: 60px;
+	border: 3px solid white;
+	overflow: hidden;
+	position: absolute;
+	top: 12px; right: 10px;
+	
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+}
+
+.tableview li .image img {
+	width: inherit;
+}
+
+.tableview li .image .placeholder {
+	width: 100%; height: 100%;
+	background: -webkit-linear-gradient(top, #dedede, #aaa);
+}
+
+img[src='monalisa.jpeg'] {
+	width: 120px !important;
+	margin-left: -29px;
+	margin-top: -15px;
+}
+
+img[src='ironman.jpeg'] {
+	width: 200px !important;
+	margin-left: -36px;
+	margin-top: 0px;
+}
+
+img[src='phoenix.jpeg'] {
+	width: 200px !important;
+	margin-left: -75px;
+	margin-top: -30px;
+}
+
+img[src='xmen.jpeg'] {
+	width: 130px !important;
+	margin-left: -40px;
+	margin-top: -80px;
+}
+
+img[src='thirdofmay.jpeg'] {
+	height: 100%;
+	width: auto !important;
+}
+
+
+
+
+
+.tableview li .image {
+	border: 2px solid white;
+}

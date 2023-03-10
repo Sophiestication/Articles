@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BITAttributedLabelDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BITAttributedLabelDelegate</TokenIdentifier>
+			<Abstract type="html">The TTTAttributedLabelDelegate protocol defines the messages sent to an attributed label delegate when links are tapped. All of the methods of this protocol are optional.</Abstract>
+			<DeclaredIn>BITAttributedLabel.h</DeclaredIn>
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BITAttributedLabelDelegate/attributedLabel:didSelectLinkWithURL:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that the user did select a link to a URL.</Abstract>
+			<DeclaredIn>BITAttributedLabel.h</DeclaredIn>			
+			
+			<Declaration>- (void)attributedLabel:(BITAttributedLabel *)label didSelectLinkWithURL:(NSURL *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>label</Name>
+					<Abstract type="html">The label whose link was selected.</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">The URL for the selected link.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/attributedLabel:didSelectLinkWithURL:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BITAttributedLabelDelegate/attributedLabel:didSelectLinkWithAddress:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that the user did select a link to an address.</Abstract>
+			<DeclaredIn>BITAttributedLabel.h</DeclaredIn>			
+			
+			<Declaration>- (void)attributedLabel:(BITAttributedLabel *)label didSelectLinkWithAddress:(NSDictionary *)addressComponents</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>label</Name>
+					<Abstract type="html">The label whose link was selected.</Abstract>
+				</Parameter><Parameter>
+					<Name>addressComponents</Name>
+					<Abstract type="html">The components of the address for the selected link.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/attributedLabel:didSelectLinkWithAddress:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BITAttributedLabelDelegate/attributedLabel:didSelectLinkWithPhoneNumber:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that the user did select a link to a phone number.</Abstract>
+			<DeclaredIn>BITAttributedLabel.h</DeclaredIn>			
+			
+			<Declaration>- (void)attributedLabel:(BITAttributedLabel *)label didSelectLinkWithPhoneNumber:(NSString *)phoneNumber</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>label</Name>
+					<Abstract type="html">The label whose link was selected.</Abstract>
+				</Parameter><Parameter>
+					<Name>phoneNumber</Name>
+					<Abstract type="html">The phone number for the selected link.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/attributedLabel:didSelectLinkWithPhoneNumber:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BITAttributedLabelDelegate/attributedLabel:didSelectLinkWithDate:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that the user did select a link to a date.</Abstract>
+			<DeclaredIn>BITAttributedLabel.h</DeclaredIn>			
+			
+			<Declaration>- (void)attributedLabel:(BITAttributedLabel *)label didSelectLinkWithDate:(NSDate *)date</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>label</Name>
+					<Abstract type="html">The label whose link was selected.</Abstract>
+				</Parameter><Parameter>
+					<Name>date</Name>
+					<Abstract type="html">The date for the selected link.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/attributedLabel:didSelectLinkWithDate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BITAttributedLabelDelegate/attributedLabel:didSelectLinkWithDate:timeZone:duration:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that the user did select a link to a date with a time zone and duration.</Abstract>
+			<DeclaredIn>BITAttributedLabel.h</DeclaredIn>			
+			
+			<Declaration>- (void)attributedLabel:(BITAttributedLabel *)label didSelectLinkWithDate:(NSDate *)date timeZone:(NSTimeZone *)timeZone duration:(NSTimeInterval)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>label</Name>
+					<Abstract type="html">The label whose link was selected.</Abstract>
+				</Parameter><Parameter>
+					<Name>date</Name>
+					<Abstract type="html">The date for the selected link.</Abstract>
+				</Parameter><Parameter>
+					<Name>timeZone</Name>
+					<Abstract type="html">The time zone of the date for the selected link.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">The duration, in seconds from the date for the selected link.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/attributedLabel:didSelectLinkWithDate:timeZone:duration:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BITAttributedLabelDelegate/attributedLabel:didSelectLinkWithTextCheckingResult:</TokenIdentifier>
+			<Abstract type="html">Tells the delegate that the user did select a link to a text checking result.</Abstract>
+			<DeclaredIn>BITAttributedLabel.h</DeclaredIn>			
+			
+			<Declaration>- (void)attributedLabel:(BITAttributedLabel *)label didSelectLinkWithTextCheckingResult:(NSTextCheckingResult *)result</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>label</Name>
+					<Abstract type="html">The label whose link was selected.</Abstract>
+				</Parameter><Parameter>
+					<Name>result</Name>
+					<Abstract type="html">The custom text checking result.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/attributedLabel:didSelectLinkWithTextCheckingResult:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

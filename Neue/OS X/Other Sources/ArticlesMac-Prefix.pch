@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Articles for Mac' target in the 'Articles for Mac' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

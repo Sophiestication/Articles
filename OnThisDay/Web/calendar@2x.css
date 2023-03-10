@@ -1,0 +1,5 @@
+html { background-image: url(background%402x.png); -webkit-background-size: 100% auto; }
+h2 { background-image: url(header%402x.png); -webkit-background-size: auto 100%; }
+.message { background-image: url(calendarError%402x.png); -webkit-background-size: auto 121px; }
+.message.networkError { background-image: url(calendarNetworkError%402x.png); }
+.activity-indicator { background-image: url(calendarSpinner%402x.png); }

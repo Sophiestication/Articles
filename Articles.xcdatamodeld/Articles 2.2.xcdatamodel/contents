@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Article" representedClassName="SAArticle" syncable="YES">
+        <attribute name="articleURL" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="lastUsedDate" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="lastUsedDay" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="readLaterDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unread" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="bookmarks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Bookmark" inverseName="article" inverseEntity="Bookmark" indexed="YES" syncable="YES"/>
+        <relationship name="readLater" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="ReadLaterBookmark" inverseName="article" inverseEntity="ReadLaterBookmark" indexed="YES" syncable="YES"/>
+        <relationship name="stackItems" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ArticleStackItem" inverseName="article" inverseEntity="ArticleStackItem" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="ArticleStack" representedClassName="SAArticleStack" syncable="YES">
+        <attribute name="searchText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortOrder" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ArticleStackItem" inverseName="stack" inverseEntity="ArticleStackItem" indexed="YES" syncable="YES"/>
+        <relationship name="selectedItem" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="ArticleStackItem" inverseName="parentStack" inverseEntity="ArticleStackItem" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="ArticleStackItem" representedClassName="SAArticleStackItem" syncable="YES">
+        <attribute name="contentOffset" optional="YES" attributeType="Transformable" valueTransformerName="SFCGPointValueTransformer" defaultValueString="0" syncable="YES"/>
+        <attribute name="contentSize" optional="YES" attributeType="Transformable" valueTransformerName="SFCGSizeValueTransformer" defaultValueString="0" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="article" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Article" inverseName="stackItems" inverseEntity="Article" indexed="YES" syncable="YES"/>
+        <relationship name="image" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="ArticleStackItemImage" inverseName="stackItem" inverseEntity="ArticleStackItemImage" indexed="YES" syncable="YES"/>
+        <relationship name="parentStack" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ArticleStack" inverseName="selectedItem" inverseEntity="ArticleStack" indexed="YES" syncable="YES"/>
+        <relationship name="stack" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ArticleStack" inverseName="items" inverseEntity="ArticleStack" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="ArticleStackItemImage" representedClassName="SAArticleStackItemImage" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Transformable" valueTransformerName="SFImageValueTransformer" storedInTruthFile="YES" syncable="YES"/>
+        <attribute name="interfaceIdiom" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="interfaceOrientation" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="rasterBuild" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="stackItem" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ArticleStackItem" inverseName="image" inverseEntity="ArticleStackItem" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="Bookmark" representedClassName="SABookmark" parentEntity="BookmarkItem" syncable="YES">
+        <relationship name="article" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Article" inverseName="bookmarks" inverseEntity="Article" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="BookmarkGroup" representedClassName="SABookmarkGroup" parentEntity="BookmarkItem" syncable="YES"/>
+    <entity name="BookmarkItem" representedClassName="SABookmarkItem" isAbstract="YES" syncable="YES">
+        <attribute name="chapter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="subitems" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BookmarkItem" inverseName="superitem" inverseEntity="BookmarkItem" indexed="YES" syncable="YES"/>
+        <relationship name="superitem" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="BookmarkItem" inverseName="subitems" inverseEntity="BookmarkItem" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="ReadLaterBookmark" representedClassName="SAReadLaterBookmark" syncable="YES">
+        <attribute name="targetTextRange" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="article" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Article" inverseName="readLater" inverseEntity="Article" indexed="YES" syncable="YES"/>
+    </entity>
+    <fetchRequest name="rootGroups" entity="BookmarkGroup" predicateString="supergroup == &quot;nil&quot;"/>
+    <elements>
+        <element name="Article" positionX="378" positionY="279" width="128" height="195"/>
+        <element name="ArticleStack" positionX="36" positionY="360" width="128" height="105"/>
+        <element name="ArticleStackItem" positionX="36" positionY="477" width="128" height="150"/>
+        <element name="ArticleStackItemImage" positionX="36" positionY="654" width="128" height="120"/>
+        <element name="Bookmark" positionX="214" positionY="207" width="128" height="60"/>
+        <element name="BookmarkGroup" positionX="36" positionY="207" width="128" height="45"/>
+        <element name="BookmarkItem" positionX="34" positionY="36" width="128" height="135"/>
+        <element name="ReadLaterBookmark" positionX="538" positionY="279" width="128" height="90"/>
+    </elements>
+</model>

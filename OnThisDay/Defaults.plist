@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SDEventsShown</key>
+	<true/>
+	<key>SDBirthsShown</key>
+	<true/>
+	<key>SDDeathsShown</key>
+	<true/>
+	<key>SDEventSortOrder</key>
+	<string>descending</string>
+	<key>SDPreferredLanguage</key>
+	<string>automatic</string>
+</dict>
+</plist>

@@ -1,0 +1,179 @@
+"UIBarButtonSystemItemSave" = "Save";
+"UIBarButtonSystemItemEdit" = "Edit";
+"UIBarButtonSystemItemCancel" = "Cancel";
+"UIBarButtonSystemItemDone" = "Done";
+"UIBarButtonSystemItemTrash" = "Delete";
+"UIBarButtonSystemItemOrganize" = "Move";
+
+"UITabBarSystemItemFavorites" = "Favorites";
+"UITabBarSystemItemHistory" = "History";
+
+"SHEETBUTTON_OK" = "OK";
+"SHEETBUTTON_CANCEL" = "Cancel";
+"SHEETBUTTON_COPY_ITEMS" = "Copy";
+"SHEETBUTTON_MOVE_ITEMS" = "Move";
+"SHEETBUTTON_CLEARALL_RECENTITEMS" = "Clear All Recents";
+
+"SHEETBUTTON_ADD_BOOKMARK" = "Add Bookmark";
+"SHEETBUTTON_SHARE_BOOKMARK" = "Mail Link to this Article";
+
+"BARBUTTON_ITEM_CLEAR" = "Clear";
+"BARBUTTON_ITEM_SELECT_ALL" = "All";
+"BARBUTTON_ITEM_DESELECT_ALL" = "None";
+
+"BARBUTTON_ITEM_NEW_PAGE" = "New Page";
+
+"UNTITLED_NAVIGATIONITEM_TITLE" = "Untitled";
+
+"PROPERTY_NAME_TITLE" = "Title";
+
+"LOADING_MORE_LABEL" = "Loading…";
+
+"SEARCHBAR_PLACEHOLDER_TITLE" = "Wikipedia";
+"SEARCHBAR_NORESULTS_PLACEHOLDER_TITLE" = "No results";
+
+// Bookmarks
+"BOOKMARKS_NAVIGATIONITEM_TITLE" = "Bookmarks";
+"NEW_BOOKMARK_NAVIGATIONITEM_TITLE" = "New Bookmark";
+"NEW_BOOKMARKGROUP_NAVIGATIONITEM_TITLE" = "New Folder";
+
+"BOOKMARKS_PLACEHOLDER_TITLE" = "No Bookmarks";
+"BOOKMARKS_PLACEHOLDER_DESCRIPTION" = "You can add bookmarks through the article view.";
+
+"RECENTITEMS_NAVIGATIONITEM_TITLE" = "History";
+"RECENTITEMS_PLACEHOLDER_TITLE" = "No History";
+"RECENTITEMS_PLACEHOLDER_DESCRIPTION" = "Recently viewed articles will appear here.";
+
+"NEARBYITEMS_NAVIGATIONITEM_TITLE" = "Nearby";
+
+"FEATUREDITEM_NAVIGATIONITEM_TITLE" = "Today's feature";
+
+"SURPRISEME_NAVIGATIONITEM_TITLE" = "Surprise Me!";
+
+// Tab View
+"TABVIEW_NEW_PAGE" = "New Page";
+
+// Search Scopes
+"SEARCHSCOPE_CONTENT" = "Content";
+"SEARCHSCOPE_TITLE" = "Title";
+
+// Wikipedia Picker
+"WIKIPEDIAPICKER_NAVIGATION_TITLE" = "Languages";
+"WIKIPEDIAPICKER_NAVIGATION_PROMPT" = "Choose a Wikipedia Language";
+
+"WIKIPEDIA_GROUP_3000000" = "Over 3,000,000 articles";
+"WIKIPEDIA_GROUP_750000" = "Over 750,000 articles";
+"WIKIPEDIA_GROUP_500000" = "Over 500,000 articles";
+"WIKIPEDIA_GROUP_250000" = "Over 250,000 articles";
+"WIKIPEDIA_GROUP_100000" = "Over 100,000 articles";
+"WIKIPEDIA_GROUP_10000" = "Over 10,000 articles";
+
+// Browser
+"OPENSAFARI_ACTION_TITLE" = "Open in Safari";
+
+// SFCalloutToolbar
+"SFCalloutToolbarSystemItemReload" = "Refresh";
+"SFCalloutToolbarSystemItemShare" = "Share";
+"SFCalloutToolbarSystemItemAddBookmark" = "Bookmark";
+
+// ArticleKit
+"AKPullDownToLock" = "Pull down to lock orientation…";
+"AKPullDownToUnlock" = "Pull down to unlock orientation…";
+"AKReleaseToLock" = "Release to lock orientation…";
+"AKReleaseToUnlock" = "Release to unlock orientation…";
+"AKTablePlaceholderText" = "Show Table";
+
+"AKGenericErrorText" = "Cannot load Article";
+"AKGenericErrorHint" = "Make sure your device can reach Wikipedia.org.";
+ 
+"AKNoNetworkErrorText" = "Cannot Connect to the Internet";
+"AKNoNetworkErrorHint" = "You must connect to a Wi-Fi network to access the Internet.";
+
+"AKShowLanguagesAccessoryViewText" = "Switch Article Language";
+"AKReloadDocumentAccessoryViewText" = "Reload";
+
+// New since Beta 2
+"SHEETBUTTON_SAVE_IMAGE" = "Save Image";
+"SHEETBUTTON_SHARE_IMAGE" = "Mail Link to this Image";
+"DIDYOUMEAN_LABEL" = "Did you mean…";
+
+// New since Beta 4
+"SHEETBUTTON_CLIPBOARD_COPY" = "Copy";
+"SHEETBUTTON_OPEN" = "Open";
+"SHEETBUTTON_OPEN_NEWPAGE" = "Open in New Page";
+
+// New since Version 1.1
+"AKNotFoundErrorText" = "Cannot load Article";
+"AKNotFoundErrorHint" = "Wikipedia does not have an article titled \"%1$@\".";
+
+"WIKIPEDIA_GROUP_RECENTITEMS" = "Recently used";
+
+// New since Version 1.2
+"RECENTLYPICKED_LANGUAGES_SECTION_TITLE" = "Recently used";
+"COMMON_LANGUAGES_SECTION_TITLE" = "Common Languages";
+
+"LANGUAGEPICKER_PLACEHOLDER_TITLE" = "No article translation";
+"LANGUAGEPICKER_PLACEHOLDER_DESCRIPTION" = "\"%1$@\" is only available in %2$@.";
+
+"CHAPTERPICKER_PLACEHOLDER_TITLE" = "No table of contents";
+"CHAPTERPICKER_PLACEHOLDER_DESCRIPTION" = "\"%1$@\" has no table of contents.";
+
+"CHAPTERPICKER_TABLEVIEW_FOOTER" = "… or double-tap (and hold) on the article view to quickly skim over the whole article text.";
+
+// New since Version 1.3
+"xx-small" = "XX-Small";
+"x-small" = "X-Small";
+"small" = "Small";
+"medium" = "Medium";
+"large" = "Large";
+"x-large" = "X-Large";
+"xx-large" = "XX-Large";
+
+"BARBUTTON_ITEM_BACK" = "Back";
+"BARBUTTON_ITEM_NEXT" = "Next";
+
+"NOSEARCHRESULTS_BEZEL_TITLE" = "Nothing Found";
+
+"FIND_MENUITEM" = "Find";
+"DEFINE_MENUITEM" = "Define";
+"SHARE_MENUITEM" = "Share";
+
+"READLATER_NAVIGATIONITEM_TITLE" = "Read Later";
+
+"READLATER_PLACEHOLDER_TITLE" = "Read Later";
+"READLATER_PLACEHOLDER_DESCRIPTION" = "Tap and hold any article link, then select \"Read Later\", to add it to this list.";
+
+"MARKREAD_TITLE" = "Mark as Read";
+"SHEETBUTTON_MARKALLREAD" = "Mark All as Read";
+
+"SHEETBUTTON_READLATER" = "Read Later";
+
+"SHEETBUTTON_QUICKLOOK" = "Quick Look";
+"SHEETBUTTON_PRINT" = "Print";
+
+"LANGUAGEPICKER_NAVIGATIONITEM_TITLE" = "In other Languages";
+"LANGUAGEPICKER_NAVIGATIONITEM_SHORTTITLE" = "Languages";
+
+"CHAPTERPICKER_NAVIGATIONITEM_TITLE" = "Table of Contents";
+"CHAPTERPICKER_NAVIGATIONITEM_SHORTTITLE" = "Contents";
+
+// New since Version 2.0
+"TUTORIAL_TEXT" = "Tap the search bar to start…";
+
+"SFBarButtonAppItemAction" = "Share";
+"SFBarButtonAppItemBookmarks" = "Bookmarks";
+"SFBarButtonAppItemNavigateBack" = "Back";
+"SFBarButtonAppItemNavigateForward" = "Forward";
+"SFBarButtonAppItemLocalizations" = "Localizations";
+"SFBarButtonAppItemChapters" = "Chapters";
+"SFBarButtonAppItemTabs" = "Pages";
+"SFBarButtonAppItemSearch" = "Search";
+
+"CUSTOMIZATION_NAVIGATIONITEM_TITLE" = "Configure";
+
+// New since Version 2.1
+"SHEETBUTTON_TWEET" = "Tweet";
+"TWEET_INITIAL_TEXT" = "%1$@ on #wikipedia\n";
+
+// Sophiestication User Interface
+"com.sophiestication.activity.giftApplication.title" = "Gift %1$@";

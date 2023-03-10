@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groups</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Tableaux Célèbres</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Les Époux Arnolfini</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Les_%C9poux_Arnolfini_(Jan_van_Eyck)</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>La Joconde</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/La_Joconde</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>La ronde de nuit</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/La_Ronde_de_nuit</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>La Jeune Fille à la perle</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/La_Jeune_Fille_%E0_la_perle</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>La grande vague Kanagawa</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/La_Grande_Vague_de_Kanagawa</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Les Tournesols</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Les_Tournesols</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Les Demoiselles d&apos;Avignon</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>American Gothic</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/American_Gothic_(peinture)</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>No. 5, 1948</string>
+					<key>URL</key>
+					<string>http://en.wikipedia.org/wiki/Number_5_(painting)</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Artistes</string>
+			<key>bookmarks</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Léonard de Vinci</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/L%E9onard_de_Vinci</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Jan Vermeer</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Jan_Vermeer</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pablo Picasso</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Picasso</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Jasper Johns</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Jasper_Johns</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Grant Wood</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Grant_Wood</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Michel-Ange</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Michel-Ange</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Hokusai</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Hokusai</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Raphael</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Rapha%EBl_(peintre)</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Rembrandt</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Rembrandt</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Thomas Gainsborough</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Thomas_Gainsborough</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Vincent van Gogh</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Van_gogh</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Roy Lichtenstein</string>
+					<key>URL</key>
+					<string>http://fr.wikipedia.org/wiki/Roy_Lichtenstein</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Postimpressionnisme</string>
+			<key>URL</key>
+			<string>http://fr.wikipedia.org/wiki/Postimpressionnisme</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Art Moderne</string>
+			<key>URL</key>
+			<string>http://fr.wikipedia.org/wiki/Art_moderne</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Surréalisme</string>
+			<key>URL</key>
+			<string>http://fr.wikipedia.org/wiki/Surr%E9alisme</string>
+		</dict>
+	</array>
+</dict>
+</plist>

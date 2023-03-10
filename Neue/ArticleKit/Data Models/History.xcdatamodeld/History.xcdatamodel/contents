@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3381.3" systemVersion="12E55" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="History" representedClassName="ARKHistory" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="selectedItemIndex" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <relationship name="historyItems" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="HistoryItem" inverseName="history" inverseEntity="HistoryItem" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="identifier"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="HistoryItem" representedClassName="ARKHistoryItem" syncable="YES">
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 64" indexed="YES" syncable="YES"/>
+        <attribute name="lastVisitDate" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <relationship name="history" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="History" inverseName="historyItems" inverseEntity="History" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="History" positionX="-144" positionY="-216" width="128" height="88"/>
+        <element name="HistoryItem" positionX="18" positionY="-216" width="128" height="118"/>
+    </elements>
+</model>

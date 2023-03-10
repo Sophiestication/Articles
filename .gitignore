@@ -1,0 +1,22 @@
+Distribution
+build
+*.xcodeproj/*.pbxuser
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.perspectivev3
+*.xcodeproj/*.xcworkspace
+*.xcodeproj/*.	xcuserdata
+
+.DS_Store
+
+.hg
+.svn
+CVS
+
+# automatic backup files
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
